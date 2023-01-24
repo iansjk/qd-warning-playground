@@ -1,0 +1,36 @@
+#scrolling {
+  width: 375px;
+  height: 667px;
+  background: gray;
+  overflow-y: scroll;
+  display: grid;
+}
+
+#scrolling > * {
+  grid-area: stack;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+p {
+  padding: 0 1rem;
+  color: white;
+}
+
+#rejoinder {
+  padding: 1rem;
+  background: white;
+}
+
+#rejoinder .incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+#show-rejoinder {
+  margin-left: 1rem;
+  background: yellow;
+  color: black;
+}
